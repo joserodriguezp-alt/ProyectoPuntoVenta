@@ -1,0 +1,19 @@
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+.title { font-size: 20px; font-weight: 700; }
+.search {
+  width: 100%; padding: 9px 14px;
+  border: 1.5px solid var(--color-gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 14px; margin-bottom: 16px;
+  outline: none;
+}
+.search:focus { border-color: var(--color-primary); }
+.active { color: var(--color-success); font-weight: 600; }
+.inactive { color: var(--color-gray-500); }
+.actions { display: flex; gap: 8px; }
+.success {
+  background: #ecfdf5; border: 1px solid #6ee7b7;
+  color: var(--color-success); padding: 10px 14px;
+  border-radius: var(--radius-sm); margin-bottom: 16px; font-size: 14px;
+}
+.modalActions { display: flex; gap: 10px; justify-content: flex-end; }

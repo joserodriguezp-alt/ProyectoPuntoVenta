@@ -1,0 +1,9 @@
+.page { max-width: 800px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+.title { font-size: 20px; font-weight: 700; }
+.form { background: var(--color-white); border-radius: var(--radius-md); padding: 24px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; gap: 16px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.label { font-size: 13px; font-weight: 600; color: var(--color-gray-700); display: block; margin-bottom: 4px; }
+.select { width: 100%; padding: 8px 12px; border: 1.5px solid var(--color-gray-300); border-radius: var(--radius-sm); font-size: 14px; }
+.apiError { background: #fef2f2; border: 1px solid #fecaca; color: var(--color-danger); padding: 10px 12px; border-radius: var(--radius-sm); font-size: 13px; }
+.footer { display: flex; gap: 10px; justify-content: flex-end; padding-top: 8px; }

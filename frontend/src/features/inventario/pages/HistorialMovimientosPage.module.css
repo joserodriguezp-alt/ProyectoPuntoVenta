@@ -1,0 +1,11 @@
+.title { font-size: 20px; font-weight: 700; margin-bottom: 20px; }
+.filtro { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.filtroLabel { font-size: 13px; font-weight: 600; color: var(--color-gray-700); white-space: nowrap; }
+.select { padding: 8px 12px; border: 1.5px solid var(--color-gray-300); border-radius: var(--radius-sm); font-size: 14px; min-width: 300px; }
+.hint { font-size: 14px; color: var(--color-gray-400); padding: 40px 0; text-align: center; }
+.pos { color: var(--color-success); font-weight: 700; }
+.neg { color: var(--color-danger); font-weight: 700; }
+.entrada { color: var(--color-success); font-weight: 600; }
+.salida_venta { color: var(--color-gray-600); }
+.devolucion { color: var(--color-primary); }
+.ajuste { color: var(--color-warning, #f59e0b); font-weight: 600; }

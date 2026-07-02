@@ -1,0 +1,4 @@
+.body { display: flex; flex-direction: column; gap: 14px; }
+.info { font-size: 14px; color: var(--color-gray-600); }
+.error { font-size: 13px; color: var(--color-danger); background: #fef2f2; border: 1px solid #fecaca; padding: 8px 12px; border-radius: var(--radius-sm); }
+.actions { display: flex; gap: 10px; justify-content: flex-end; }

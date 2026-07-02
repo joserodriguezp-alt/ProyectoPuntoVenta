@@ -1,0 +1,14 @@
+.wrapper { display: flex; flex-direction: column; gap: 16px; }
+.empty { color: var(--color-gray-400); font-size: 14px; text-align: center; padding: 40px 0; }
+.table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table th { text-align: left; padding: 6px 8px; color: var(--color-gray-600); border-bottom: 1.5px solid var(--color-gray-200); white-space: nowrap; }
+.table td { padding: 7px 8px; border-bottom: 1px solid var(--color-gray-100); vertical-align: middle; }
+.nombre { max-width: 200px; }
+.mono { font-variant-numeric: tabular-nums; text-align: right; }
+.cantInput { width: 60px; padding: 4px 6px; border: 1px solid var(--color-gray-300); border-radius: 4px; font-size: 13px; text-align: center; }
+.del { background: none; border: none; cursor: pointer; color: var(--color-danger); font-size: 16px; padding: 2px 6px; }
+.del:hover { opacity: 0.7; }
+.totales { border-top: 2px solid var(--color-gray-200); padding-top: 12px; display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+.totalRow { display: flex; gap: 24px; justify-content: space-between; min-width: 220px; font-size: 14px; }
+.desc { color: var(--color-danger); }
+.grandTotal { font-size: 18px; font-weight: 700; color: var(--color-primary); margin-top: 4px; }

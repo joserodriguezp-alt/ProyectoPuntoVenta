@@ -1,0 +1,20 @@
+@media print {
+  body * { visibility: hidden; }
+  .ticket-print, .ticket-print * { visibility: visible; }
+  .ticket-print {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80mm;
+    font-family: var(--font-mono, 'Courier New', monospace);
+    font-size: 11px;
+    color: #000;
+  }
+  .ticket-print h2 { font-size: 13px; text-align: center; margin-bottom: 4px; }
+  .ticket-print .ticket-folio { text-align: center; margin-bottom: 8px; font-size: 11px; }
+  .ticket-print .ticket-sep { border-top: 1px dashed #000; margin: 6px 0; }
+  .ticket-print table { width: 100%; border-collapse: collapse; font-size: 11px; }
+  .ticket-print td { padding: 1px 2px; }
+  .ticket-print .ticket-total { font-size: 13px; font-weight: bold; text-align: right; }
+  .ticket-print .ticket-footer { text-align: center; margin-top: 8px; font-size: 10px; }
+}

@@ -1,0 +1,32 @@
+# Variables de entorno — NUNCA subir al repositorio
+.env
+.env.local
+.env.*.local
+
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Build del frontend
+frontend/dist/
+frontend/dist-ssr/
+
+# Cobertura de pruebas
+coverage/
+**/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
