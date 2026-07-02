@@ -24,8 +24,8 @@ app.use(morgan('dev'));
 app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, { customSiteTitle: 'TPV Papelería — API Docs' }));
 app.get('/api/docs.json', (req, res) => res.json(swaggerSpec));
 
-// Endpoint de salud, sin autenticacion
-app.get('/api/health', (req, res) => {
+// Endpoint de salud — disponible en /health (Railway) y /api/health
+app.get(['/health', '/api/health'], (req, res) => {
   res.status(200).json({ success: true, data: { status: 'ok' } });
 });
 
